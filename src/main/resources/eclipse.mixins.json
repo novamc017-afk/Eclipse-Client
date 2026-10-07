@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.eclipse.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["GameRendererMixin", "CameraMixin", "EntityMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

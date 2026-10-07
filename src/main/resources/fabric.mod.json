@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "eclipse",
+  "version": "${version}",
+  "name": "Eclipse Client",
+  "description": "Quality-of-life HUD, keystrokes, zoom and a smooth dark mod menu.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.eclipse.client.EclipseClient"] },
+  "mixins": [{ "config": "eclipse.mixins.json", "environment": "client" }],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
